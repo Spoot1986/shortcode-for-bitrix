@@ -1,3 +1,4 @@
+<?
 function get_news_by_id($id){
 
     if(CModule::IncludeModule("iblock")){
@@ -40,3 +41,4 @@ function get_additional_news($text){
 
     return $text; 
 }
+?>
